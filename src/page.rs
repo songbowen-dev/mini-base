@@ -52,7 +52,6 @@ pub(crate) trait Pager {
 }
 
 trait DataPager: Pager {
-    // as
     const HEADER: usize = 0;
     const CAPACITY: usize = 1;
     const PARENT: usize = 5;
